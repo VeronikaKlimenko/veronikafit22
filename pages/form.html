@@ -13,6 +13,7 @@
 
     <body>
       <!--select-->
+
       <b> Оберіть бажаний варіант доставки: </b>
       <select name="delivery">
         <option value="відділення нової пошти">відділення нової пошти</option>
@@ -21,6 +22,7 @@
         <option value="кур'єр укр пошта">кур'єр укр пошта</option>
       </select>
       <br /><br />
+
       <b> Варіант оплати: </b>
       <br />
       <p>
@@ -39,20 +41,32 @@
         <input type="checkbox" name="checkbox" value="checkbox" />
         Пробники та каталоги
       </p>
-      <b>Заповніть необхідні дані</b>
-      <br /><br />
-      <b>Ім'я:</b>
-      <input type="text" name="textfield1" />
-      <br /><br />
-      <b>Адреса:</b>
-      <input type="text" name="textfield2" />
-      <br /><br />
-      <b>Місто:</b>
-      <input type="text" name="textfield3" />
-      <br /><br />
-      <b>Поштовий індекс:</b>
-      <input type="text" name="textfield5" />
-      <br /><br />
+
+      <fieldset>
+        <legend><b>Заповніть необхідні дані</b></legend>
+        <br />
+        <b>Ім'я:</b>
+        <input type="text" name="textfield1" />
+        <br /><br />
+        <b>Адреса:</b>
+        <input type="text" name="textfield2" />
+        <br /><br />
+        <b>Місто:</b>
+        <input type="text" name="textfield3" />
+        <br /><br />
+        <b>Поштовий індекс:</b>
+        <input type="text" name="textfield5" />
+        <br /><br />
+        <b>Ваш вік:</b>
+        <input
+          type="number"
+          name="userAge"
+          placeholder="Enter your age"
+          id="userAge"
+          min="1"
+          max="5"
+        /><br /><br />
+      </fieldset>
       <b>Залишити коментар:</b>
       <br /><br />
       <textarea name="comment" cols="50" rows="6"></textarea>
